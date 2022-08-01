@@ -1,0 +1,32 @@
+.text-container{
+    background-color: aquamarine
+
+}
+.text-header{
+font-size: 45px;
+text-decoration-line: overline underline;
+text-decoration-style: double;
+text-decoration-color: brown;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+
+.text-paragraph{
+font-size: 30px;
+font-weight: 400;
+/* font-style: italic; */
+font-family: 'Raleway', sans-serif;
+line-height: 1.5em;
+text-align: justify;
+text-transform: capitalize;
+text-indent: 1em;
+
+}
+
+.button{
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: overline underline dashed crimson;
+}
