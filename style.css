@@ -1,32 +1,27 @@
-.text-container{
-    background-color: aquamarine
-
-}
-.text-header{
-font-size: 45px;
-text-decoration-line: overline underline;
-text-decoration-style: double;
-text-decoration-color: brown;
-font-family: 'Raleway', sans-serif;
-font-weight: 600;
+.main-article{
+    color: blue;
+    border-width: 5px;
+    border-style: dotted;
+    border-color: brown;
+    
 }
 
-.text-paragraph{
-font-size: 30px;
-font-weight: 400;
-/* font-style: italic; */
-font-family: 'Raleway', sans-serif;
-line-height: 1.5em;
-text-align: justify;
-text-transform: capitalize;
-text-indent: 1em;
+.main-header{
+    font-size: 60px;
+border: inherit;
+color: initial;
+border-left: none;
+border-right: none;
+
 
 }
 
-.button{
-    text-transform: uppercase;
+.article-content{
+    font-size: 40px;
 }
 
 .link{
-    text-decoration: overline underline dashed crimson;
+    font-size: 60px;
+    text-decoration: none;
+    color: inherit;
 }
