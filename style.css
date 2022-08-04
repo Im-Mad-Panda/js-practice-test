@@ -1,27 +1,6 @@
-.main-article{
-    color: blue;
-    border-width: 5px;
-    border-style: dotted;
-    border-color: brown;
-    
-}
-
-.main-header{
-    font-size: 60px;
-border: inherit;
-color: initial;
-border-left: none;
-border-right: none;
-
-
-}
-
-.article-content{
-    font-size: 40px;
-}
-
-.link{
-    font-size: 60px;
-    text-decoration: none;
-    color: inherit;
+.img{
+    width: 200px;
+    border: 4px solid black;
+    padding: 10px;
+    box-sizing: border-box;
 }
