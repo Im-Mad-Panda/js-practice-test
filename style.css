@@ -1,12 +1,23 @@
-*{
-    background-color: blueviolet;
-}
-
 .container{
     width: 200px;
-    border: 2px solid blue;
+    height: 200px;
+    border: 2px solid rgb(105, 52, 21);
+
+background-image: url(./src/img/755540270893657.jpg);
+background-position: center;
+background-size: cover;
 }
 
-.aquamarine{
-    background-color: aquamarine;
+.bordered{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+
+border: solid;
+border-color: blueviolet;
+border-image: url(./src/img/10923655.jpg);
+border-width: 20px;
+border-image-slice: 50;
+border-image-repeat: round;
+
 }
