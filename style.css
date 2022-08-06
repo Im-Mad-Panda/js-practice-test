@@ -1,7 +1,12 @@
-.img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: right;
+*{
+    background-color: blueviolet;
+}
+
+.container{
+    width: 200px;
+    border: 2px solid blue;
+}
+
+.aquamarine{
+    background-color: aquamarine;
 }
