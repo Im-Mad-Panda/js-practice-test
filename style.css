@@ -1,23 +1,15 @@
-.container{
-    width: 200px;
-    height: 200px;
-    border: 2px solid rgb(105, 52, 21);
+.button{
+    background-color: aqua;
+    outline: none;
+    border: none;
+    border-radius: 5px;
 
-background-image: url(./src/img/755540270893657.jpg);
-background-position: center;
-background-size: cover;
-}
+    width: 100%;
+    min-width: 60px;
+    max-width: 130px;
+    max-height: 50px;
 
-.bordered{
-    width: 200px;
-    height: 200px;
-    margin: 50px;
-
-border: solid;
-border-color: blueviolet;
-border-image: url(./src/img/10923655.jpg);
-border-width: 20px;
-border-image-slice: 50;
-border-image-repeat: round;
-
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
