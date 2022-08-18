@@ -1,15 +1,20 @@
-.button{
-    background-color: aqua;
-    outline: none;
-    border: none;
-    border-radius: 5px;
+*{
+    margin: 0;
+}
 
-    width: 100%;
-    min-width: 60px;
-    max-width: 130px;
-    max-height: 50px;
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid pink;
+}
 
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(/src/img/1626361117_6-funart-pro-p-kotik-v-ochkakh-zhivotnie-krasivo-foto-12.jpg);
+    background-size: cover;
+    border: 5px solid pink;
 }
