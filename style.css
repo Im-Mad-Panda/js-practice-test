@@ -1,7 +1,5 @@
-ol{
-    list-style-type: disc;
-    list-style-image: url(/src/img/alien.png);
-list-style-position: inside;
+td{
+    border: 2px solid black;
 }
 
 
