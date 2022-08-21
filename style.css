@@ -1,12 +1,31 @@
-/* #id > p{
-    color: blue;
-    font-size: 25px;
+.container{
+    border: 2px solid blue;
+    background-color: aqua;
+    width: 260px;
 }
-#id > div > p{
-    font-size: 15px;
-    color: red;
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icon ~ .icon{
+    margin-left: 10px;
+}
+
+/* .icon + .icon{
+    margin-left: 10px;
 } */
 
-article ~ p{
-    color: green;
+h2 + p{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+p + p{
+    font-size: 45px;
+    color: rgb(0, 111, 185);
 }
