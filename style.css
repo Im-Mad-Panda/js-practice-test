@@ -1,31 +1,23 @@
-.container{
-    border: 2px solid blue;
-    background-color: aqua;
-    width: 260px;
+.navigation{
+
 }
 
-.icon{
-    width: 40px;
-    height: 40px;
-    background-color: black;
-    border-radius: 50%;
-    display: inline-block;
+.link-list{
+
 }
 
-.icon ~ .icon{
-    margin-left: 10px;
+.link-list li{
+    margin-top: 20px;
 }
 
-/* .icon + .icon{
-    margin-left: 10px;
-} */
-
-h2 + p{
-    font-size: 30px;
-    color: blueviolet;
+.page-link{
+display: inline-block;
+background-color: lightblue;
+padding: 10px;
+text-decoration: none;
 }
 
-p + p{
-    font-size: 45px;
-    color: rgb(0, 111, 185);
+.page-link:hover{
+    background-color: blue;
+    color: white;
 }
