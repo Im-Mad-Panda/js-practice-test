@@ -1,5 +1,5 @@
-.navigation{
-
+:root{
+--main-bg-color: dodgerblue;
 }
 
 .link-list{
@@ -12,7 +12,8 @@
 
 .page-link{
 display: inline-block;
-background-color: lightblue;
+/* background-color: lightblue; */
+background-color: var(--main-bg-color);
 padding: 10px;
 text-decoration: none;
 }
@@ -20,4 +21,8 @@ text-decoration: none;
 .page-link:hover{
     background-color: blue;
     color: white;
+}
+
+div{
+    background-color: blueviolet;
 }
