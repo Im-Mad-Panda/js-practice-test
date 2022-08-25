@@ -1,15 +1,16 @@
-ul li {
+/* li:nth-child(2n){
     color: blue;
 }
-
-/* ul li:first-child{
+li:nth-child(2n+1){
+    color: red;
+}
+li:nth-child(4){
     color: green;
 } */
 
-ul:first-child li:first-child{
-    color: green;
+li:nth-child(even){
+color: blue;
 }
-
-li:last-child{
-    color: rgb(128, 1, 255);
-}
+li:nth-child(odd){
+    color: red;
+    }
