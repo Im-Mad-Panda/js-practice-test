@@ -1,20 +1,15 @@
-.link-list{
-
+ul li {
+    color: blue;
 }
 
-.link-list li{
-    margin-top: 20px;
-}
-
-.page-link{
-    display: inline-block;
-    text-decoration: none;
-    background-color: rgb(113, 205, 221);
-    padding: 10px;
-}
-.page-link:link{
-    color: white;
-}
-.page-link:visited{
+/* ul li:first-child{
     color: green;
+} */
+
+ul:first-child li:first-child{
+    color: green;
+}
+
+li:last-child{
+    color: rgb(128, 1, 255);
 }
