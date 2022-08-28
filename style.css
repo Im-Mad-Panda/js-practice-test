@@ -1,36 +1,28 @@
-/* li:nth-child(2n){
-    color: blue;
-}
-li:nth-child(2n+1){
-    color: red;
-}
-li:nth-child(4){
-    color: green;
-} */
-
-/* li:nth-child(even){
-color: blue;
-}
-li:nth-child(odd){
-    color: red;
-    } */
-
-div{
-    width: 100px;
-    height: 100px;
-    margin: 0 10px 0 10px;
-    display: inline-block;
-    border: 5px solid black;
-}
-/* (каждый четный) */
-div:nth-child(2n){
-    background-color: green;
-} 
-    /* (не четный) */
-div:nth-child(2n+1){ 
-    background-color: red;
-} 
-/* (каждый третий) */
-div:nth-child(3n){
-    background-color: blue
-} 
+table {
+    border-collapse: collapse;
+    --color-wite:#ffff;
+    --darker-green:#4aa556;
+  }
+  td{
+    padding: 20px;
+    text-align: center;
+  }
+  
+  table>thead>tr{
+    background-color: #0f70eb;
+    color: var(--color-wite);
+  }
+  
+  table>tbody>tr:nth-child(2n)>td{
+    background-color: #e9eaed;
+  }
+  
+  table>tbody>tr:nth-child(2n)>td:first-child{
+    background-color: #60d055;
+    color: var(--color-wite);
+  }
+  table>tbody>tr:nth-child(2n+1)>td:first-child, table>tfoot>tr>td:first-child{
+    background-color: var(--darker-green);
+    color: var(--color-wite);
+  }
+  
