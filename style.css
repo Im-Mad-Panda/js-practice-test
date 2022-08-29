@@ -25,8 +25,8 @@ background-color: blueviolet;
 border: 1px solid black;
 text-align: center;
 }
-.relative{
-  position: relative;
-  bottom: 10px;
-  left: 30px;
+.fixed{
+  position: fixed;
+  top: 20px;
+  left: 50px;
 }
