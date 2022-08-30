@@ -1,4 +1,4 @@
-*{
+/* *{
   box-sizing: border-box;
 }
 body{
@@ -29,4 +29,39 @@ text-align: center;
   position: fixed;
   top: 20px;
   left: 50px;
+} */
+
+.box{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+div:nth-child(1){
+  background-color: blue;
+}
+div:nth-child(2){
+  background-color: rgb(255, 0, 0);
+}
+div:nth-child(3){
+  background-color: rgb(255, 145, 0);
+}
+div:nth-child(4){
+  background-color: rgb(140, 0, 255);
+}
+.fixed{
+  position: fixed;
+}
+.left{
+  left: 0;
+}
+.right{
+  right: 0;
+}
+.bottom{
+  bottom: 0;
+}
+.top{
+  top: 0;
 }
