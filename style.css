@@ -1,4 +1,4 @@
-/* *{
+ *{
   box-sizing: border-box;
 }
 body{
@@ -11,12 +11,14 @@ background-color: rgb(0, 255, 13);
 height: 800px;
 width: 80%;
 margin: 0 auto;
+
 }
 .wrapper{
   width: 80%;
   height: 800px;
 background-color: blue;
 margin: 0 auto;
+position:relative;
 }
 .inner{
 width: 80px;
@@ -25,43 +27,15 @@ background-color: blueviolet;
 border: 1px solid black;
 text-align: center;
 }
-.fixed{
-  position: fixed;
+.absolute{
+  position: absolute;
   top: 20px;
-  left: 50px;
-} */
+  left: 20px;
+background-color: aquamarine;
+z-index: 0;
+} 
+.relative{
+  position: relative;
+  z-index: 2;
+}
 
-.box{
-  width: 80px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-justify-content: center;
-}
-div:nth-child(1){
-  background-color: blue;
-}
-div:nth-child(2){
-  background-color: rgb(255, 0, 0);
-}
-div:nth-child(3){
-  background-color: rgb(255, 145, 0);
-}
-div:nth-child(4){
-  background-color: rgb(140, 0, 255);
-}
-.fixed{
-  position: fixed;
-}
-.left{
-  left: 0;
-}
-.right{
-  right: 0;
-}
-.bottom{
-  bottom: 0;
-}
-.top{
-  top: 0;
-}
