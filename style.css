@@ -18,24 +18,23 @@ margin: 0 auto;
   height: 800px;
 background-color: blue;
 margin: 0 auto;
-position:relative;
+position: relative;
 }
 .inner{
-width: 80px;
-height: 80px;
+/* width: 80px;
+height: 80px; */
 background-color: blueviolet;
 border: 1px solid black;
 text-align: center;
 }
 .absolute{
   position: absolute;
-  top: 20px;
-  left: 20px;
+
 background-color: aquamarine;
-z-index: 0;
+z-index: 2;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
 } 
-.relative{
-  position: relative;
-  z-index: 2;
-}
 
