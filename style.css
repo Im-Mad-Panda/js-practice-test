@@ -15,3 +15,8 @@ p::first-line{
   font-family: fantasy;
   background-color: rgb(70, 70, 187);
 }
+p::selection{
+  color: red;
+  background-color: yellow;
+  /* cursor: pointer; */
+}
