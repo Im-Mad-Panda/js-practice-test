@@ -4,12 +4,13 @@ body{
 p
 {
   color: dodgerblue;
+  border: 1px solid black;
 }
-p::first-letter{
+/* p::first-letter{
   color: rgb(152, 72, 155);
   font-size: 2em;
   font-family: fantasy;
-}
+} */
 p::first-line{
   color: rgb(0, 0, 0);
   font-family: fantasy;
@@ -19,4 +20,43 @@ p::selection{
   color: red;
   background-color: yellow;
   /* cursor: pointer; */
+}
+p::before{
+  color: blue;
+  background-color: green;
+  width: 80px;
+  height: 80px;
+  padding-right: 5px;
+  content: ' ';
+  display: block;
+}
+p::after{
+  width: 20px;
+  height: 20px;
+  display: block;
+  content: url(/src/icons/arrow-right-bold.svg);
+}
+li{
+  list-style-type: none;
+  background-color: teal;
+  color: white;
+  margin: 20px;
+  width: 100px;
+  position: relative;
+}
+li::before, li::after{
+  font-size: 2em;
+  color: rgb(165, 42, 110);
+  position: absolute;
+  
+}
+li::before{
+  content: open-quote;
+  top: -0,5em;
+  right: 100%;
+}
+li::after{
+  content: close-quote;
+  bottom: -0,7em;
+  left: 100%;
 }
