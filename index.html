@@ -10,48 +10,87 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form>
+    <form action="/test-location" method="GET">
       <fieldset>
         <legend>Personal info</legend>
-        <label>
-          Your firstname
-          <input 
-          type="text" 
-          placeholder="Jonh" 
-          autofocus 
-          autocomplete="name" />
+        <label class="required">
+          <span>Your firstname</span>
+          <input
+            type="text"
+            placeholder="Jonh"
+            autofocus
+            autocomplete="name"
+            name="firstname"
+            pattern="^[A-Za-z0-9_-]{3,15}$"
+            value="Firstname"
+            required
+          />
         </label>
-        <label>
-          Your lastname
-          <input 
-          type="text" 
-          placeholder="Snow" 
-          autofocus />
+        <label class="required">
+          <span>Your lastname</span>
+          <input
+            type="text"
+            placeholder="Snow"
+            autofocus
+            name="lastname"
+            required
+          />
         </label>
       </fieldset>
 
       <fieldset>
         <legend>Auth info</legend>
-        <label>
-          Your email
+        <label class="required">
+          <span>Your email</span>
           <input
             type="email"
             placeholder="mail@mail.com"
             autofocus
             autocomplete="email"
+            name="email"
+            required
           />
         </label>
-        <label>
-          Your password
+        <label class="required">
+          <span>Your password</span>
           <input
             type="password"
             placeholder="Password"
             autocomplete="new-password"
+            name="password"
+            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,32}"
+            required
           />
         </label>
       </fieldset>
 
-      <label
+      <fieldset>
+        <legend>Another info</legend>
+
+          <span>Where are you from?</span>
+         
+          <datalist id="city_list">
+            <option value="Kyiv">Киев</option>
+            
+              <option value="Dnipro">Днепр</option>
+              <option value="Manganese">Марганец</option>
+              <option value="Nikopol">Никополь</option>
+            
+   
+            <option value="Zaporizhzha">Запорожье</option>
+            
+          </datalist>
+          <input type="text" list="city_list" />
+
+          <label><span>Order Comment</span></label>
+
+            <textarea rows="3" wrap="soft" name="comment"></textarea>      
+                  
+       
+      </fieldset>
+      <progress value="50" max="300"></progress>
+
+      <!-- <label
         >Your phone
         <input 
         type="tel" />
@@ -84,35 +123,54 @@
         <legend>Other info</legend>
       <label
         >Are you adult?
-        <input type="checkbox" />
+        <input 
+        type="checkbox" />
       </label>
 
       <label
         >Type your birthday?
-        <input type="date" />
+        <input 
+        type="date" />
       </label>
 
       <label
         >Type your birthday?
-        <input type="datetime-local" />
+        <input 
+        type="datetime-local" />
       </label>
 
       <label
         >Choose your avatar
-        <input type="file" />
+        <input 
+        type="file" />
       </label>
 
       <label>
         Loud level
-        <input type="range" />
+        <input 
+        type="range" />
       </label>
     </fieldset>
 
     <label>
-      <input class="reset" type="reset" value="Click to reset!" />
-    </label>
+          <input
+            type="hidden"
+            placeholder="Password"
+            autocomplete="new-password"
+            value="super-secret-value"
+            name="hidden-input"
+            required />
+        </label>
+      </fieldset>
 
-    <!-- <label>
+    <label>
+      <input 
+      class="reset" 
+      type="reset" 
+      value="Click to reset!" />
+    </label> -->
+
+      <!-- <label>
       <input type="submit" value="Click to reset(submit)!" />
     </label> -->
 
@@ -134,9 +192,9 @@
 <input type="url">
 <input type="week"> -->
 
-    <div>
-      <button type="submit" tabindex="1">Click me!</button>
-    </div>
+      <div>
+        <button type="submit" tabindex="1">Click me!</button>
+      </div>
     </form>
   </body>
 </html>

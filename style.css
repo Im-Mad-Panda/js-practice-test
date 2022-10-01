@@ -12,9 +12,12 @@ label{
   justify-content: space-between;
   margin-bottom: 10px;
 }
-input[type="email"]{
+input:invalid{
 color: brown;
 }
+input:valid{
+  color: green;
+  }
 fieldset{
   margin-bottom: 10px;
 }
@@ -23,9 +26,20 @@ div{
   justify-content: center;
 }
 button{
+  background-color: rgb(3, 161, 3);
+  border: 1px solid black;
+  border-radius: 5px;
   padding: 10px 20px;
   outline: none;
 }
+button:hover{
+  background-color: green;
+}
 .reset{
   padding: 5px;
+}
+
+.required span::after{
+color: red;
+content: "*";
 }
