@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- <link rel="stylesheet" href="./reset.css" /> -->
+    <link rel="stylesheet" href="./reset.css" />
 
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form action="/test-location" method="GET">
+    <!-- <form action="/test-location" method="GET">
       <fieldset>
         <legend>Personal info</legend>
         <label class="required">
@@ -88,7 +88,7 @@
                   
        
       </fieldset>
-      <progress value="50" max="300"></progress>
+      <progress value="50" max="300"></progress> -->
 
       <!-- <label
         >Your phone
@@ -192,9 +192,49 @@
 <input type="url">
 <input type="week"> -->
 
-      <div>
+      <!-- <div>
         <button type="submit" tabindex="1">Click me!</button>
       </div>
-    </form>
+    </form> -->
+
+<section>
+  <form action="/test-location" method="GET">
+<h1>Account login</h1>
+<label class="required">
+  <span>Username</span>
+  <input
+    type="text"
+    autofocus
+    autocomplete="name"
+    name="username"
+    pattern="^[A-Za-z0-9_-]{3,15}$"
+    required
+  />
+</label>
+<label class="required">
+  <span>Password</span>
+  <input
+    type="password" 
+    autocomplete="new-password"
+    name="password"
+    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,32}"
+    required
+  />
+</label>
+<div class="other-info">
+<div class="checkbox">
+<label class="checkbox-info">
+  <input 
+  type="checkbox" />
+</label>
+<p class="checkbox-p">Remember Me</p>
+</div>
+<p><a href="#">Fergot Password?</a></p>
+</div>
+<div> 
+  <button type="submit" tabindex="1">Log In</button>
+</div>
+  </form>
+</section>
   </body>
 </html>

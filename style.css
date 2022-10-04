@@ -1,4 +1,94 @@
-form{
+body{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+  background-color: #81dcf1;
+}
+section{
+  background-color: white;
+  width: 500px;
+  border-radius: 3px;
+  position: relative;
+  box-sizing: border-box;
+}
+section::after{
+  width: 30px;
+  background-color: #1c87f8;
+  content: " ";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+ form{
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 50px;
+}
+input{
+  height: 35px;
+  border-radius: 3px;
+  background-color: hsl(0deg 0% 90%);
+  border: none;
+}
+input:focus{
+  border: 2px solid black;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+} 
+h1{
+  text-transform: uppercase;
+  font-size: 23px;
+  margin-bottom: 50px;
+  color: #1c87f8;
+}
+span{
+  text-transform: uppercase;
+  color: rgb(110, 110, 110);
+  margin-bottom: 10px;
+}
+.checkbox-p{
+  color: rgb(110, 110, 110);
+}
+button{
+  height: 35px;
+  width: 350px;
+  border-radius: 3px;
+  background-color: #1c87f8;
+  color: white;
+  text-align: center;
+  border: none;
+}
+.other-info{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox-info{
+  margin-right: 10px;
+}
+p{
+  margin-bottom: 10px;
+}
+a{
+  color: #1c87f8;
+text-decoration: none;
+}
+
+
+
+
+
+/* form{
   display: flex;
   flex-direction: column;
   max-width: 330px;
@@ -42,4 +132,4 @@ button:hover{
 .required span::after{
 color: red;
 content: "*";
-}
+} */
