@@ -1,37 +1,36 @@
+@import "./reset.css";
+
+@font-face{
+    font-family: 'Dancing Script';
+    src: url(./src/font/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'Lobster';
+    src: url(./src/font/Lobster-Regular.ttf);
+}
 body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-.page-header{
-    height: 100px;
-    background-color: orange;
-    margin-bottom: 30px;
-}
-.container{
-width: 1200px;
-border: 2px solid red;
-margin: 0 auto;
-font-size: 1.3em;
-line-height: 1.3em;
-/* column-count: 3; */
-text-align: justify;
-column-width: 250px;
-padding: 20px;
-margin-bottom: 30px;
-column-rule: 2px solid palevioletred;
-column-gap: 50px;
-}
-.page-footer{
-height: 50px;
-background-color: orangered;
-margin-top: auto;
+    background-color: pink;
 }
 h1{
-    text-transform: uppercase;
-    font-size: 3em;
-    font-weight: bolder;
-    column-span: all;
-    margin-bottom: 20px;
+    font-family: 'Lobster';
+    font-weight: medium;
+    font-size: 4em;
     text-align: center;
+}
+p::first-letter{
+    font-size: 2em; 
+}
+p{
+    font-family: 'Dancing Script';
+    font-weight: medium;
+    font-size: 3em;
+    text-align: center;   
+}
+.container{
+    width: 800px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: plum;
+    padding: 10px;
 }
