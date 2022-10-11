@@ -10,231 +10,25 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!-- <form action="/test-location" method="GET">
-      <fieldset>
-        <legend>Personal info</legend>
-        <label class="required">
-          <span>Your firstname</span>
-          <input
-            type="text"
-            placeholder="Jonh"
-            autofocus
-            autocomplete="name"
-            name="firstname"
-            pattern="^[A-Za-z0-9_-]{3,15}$"
-            value="Firstname"
-            required
-          />
-        </label>
-        <label class="required">
-          <span>Your lastname</span>
-          <input
-            type="text"
-            placeholder="Snow"
-            autofocus
-            name="lastname"
-            required
-          />
-        </label>
-      </fieldset>
 
-      <fieldset>
-        <legend>Auth info</legend>
-        <label class="required">
-          <span>Your email</span>
-          <input
-            type="email"
-            placeholder="mail@mail.com"
-            autofocus
-            autocomplete="email"
-            name="email"
-            required
-          />
-        </label>
-        <label class="required">
-          <span>Your password</span>
-          <input
-            type="password"
-            placeholder="Password"
-            autocomplete="new-password"
-            name="password"
-            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,32}"
-            required
-          />
-        </label>
-      </fieldset>
-
-      <fieldset>
-        <legend>Another info</legend>
-
-          <span>Where are you from?</span>
-         
-          <datalist id="city_list">
-            <option value="Kyiv">Киев</option>
-            
-              <option value="Dnipro">Днепр</option>
-              <option value="Manganese">Марганец</option>
-              <option value="Nikopol">Никополь</option>
-            
-   
-            <option value="Zaporizhzha">Запорожье</option>
-            
-          </datalist>
-          <input type="text" list="city_list" />
-
-          <label><span>Order Comment</span></label>
-
-            <textarea rows="3" wrap="soft" name="comment"></textarea>      
-                  
-       
-      </fieldset>
-      <progress value="50" max="300"></progress> -->
-
-      <!-- <label
-        >Your phone
-        <input 
-        type="tel" />
-      </label>
-      <fieldset>
-        <legend>Choose your gender</legend>
-        <label>
-          Male
-          <input 
-          type="radio" 
-          name="gender" />
-        </label>
-
-        <label>
-          Female
-          <input 
-          type="radio" 
-          name="gender" />
-        </label>
-
-        <label>
-          Non-binary
-          <input 
-          type="radio" 
-          name="gender" />
-        </label>
-      </fieldset>
-
-      <fieldset>
-        <legend>Other info</legend>
-      <label
-        >Are you adult?
-        <input 
-        type="checkbox" />
-      </label>
-
-      <label
-        >Type your birthday?
-        <input 
-        type="date" />
-      </label>
-
-      <label
-        >Type your birthday?
-        <input 
-        type="datetime-local" />
-      </label>
-
-      <label
-        >Choose your avatar
-        <input 
-        type="file" />
-      </label>
-
-      <label>
-        Loud level
-        <input 
-        type="range" />
-      </label>
-    </fieldset>
-
-    <label>
-          <input
-            type="hidden"
-            placeholder="Password"
-            autocomplete="new-password"
-            value="super-secret-value"
-            name="hidden-input"
-            required />
-        </label>
-      </fieldset>
-
-    <label>
-      <input 
-      class="reset" 
-      type="reset" 
-      value="Click to reset!" />
-    </label> -->
-
-      <!-- <label>
-      <input type="submit" value="Click to reset(submit)!" />
-    </label> -->
-
-      <!-- <input type="button">
-
-<input type="color">
-<input type="date">
-
-
-<input type="hidden">
-<input type="image">
-<input type="month">
-<input type="number">
-
-
-<input type="search">
-
-<input type="time">
-<input type="url">
-<input type="week"> -->
-
-      <!-- <div>
-        <button type="submit" tabindex="1">Click me!</button>
-      </div>
-    </form> -->
-
-<section>
-  <form action="/test-location" method="GET">
-<h1>Account login</h1>
-<label class="required">
-  <span>Username</span>
-  <input
-    type="text"
-    autofocus
-    autocomplete="name"
-    name="username"
-    pattern="^[A-Za-z0-9_-]{3,15}$"
-    required
-  />
-</label>
-<label class="required">
-  <span>Password</span>
-  <input
-    type="password" 
-    autocomplete="new-password"
-    name="password"
-    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,32}"
-    required
-  />
-</label>
-<div class="other-info">
-<div class="checkbox">
-<label class="checkbox-info">
-  <input 
-  type="checkbox" />
-</label>
-<p class="checkbox-p">Remember Me</p>
+<section class="form-wrapper">
+  <img class="before" src="./src/img/before.png" alt="">
+  <img class="after" src="./src/img/after.png" alt="">
+  <div class="header-center">
+  <h2 class="form-header">Запись на дигустацию</h2>
 </div>
-<p><a href="#">Fergot Password?</a></p>
-</div>
-<div> 
-  <button type="submit" tabindex="1">Log In</button>
-</div>
+
+  <p class="form-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ratione quos aliquam architecto placeat odit unde molestias sapiente? Veniam officiis aperiam omnis explicabo iste unde.</p>
+
+  <form class="contact-form">
+    <div class="row">
+      <input type="text" placeholder="Имя">
+      <input type="text" placeholder="Телефон">
+    </div>
+    <input type="text" placeholder="Бутик на Невском 103">
+    <button>Записаться</button>
   </form>
 </section>
+
   </body>
 </html>
