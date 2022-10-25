@@ -1,48 +1,8 @@
 @import "./reset.css";
 
-h2{
-  color: blue;
-}
-p{
-  color: red;
-}
-.container{
-  border: 4px dotted green
-}
-
-@media print{
-  h2, p{
-    color: black;
-  }
-  .container{    
-    font-size: 16px;
-    border: 1px solid black;
-  }
-}
-/* Mobail version */
-@media screen and (max-width:499px){
-  .container{ 
-    background-color: rgb(255, 166, 0);
-  }
-}
-  
-  /* Tablet version */
-  @media screen and (min-width:500px) and (max-width:900px){
-    .container{
-      font-size: 18px;
-      background-color: rgb(0, 225, 255);
-    }
-}
-
-@media screen and (min-width:901px) and (max-width:1200px){
-  .container{
-    font-size: 26px;
-    background-color: rgb(199, 230, 22);
-  }
-}
-
-@media screen and (min-width:1201px){
-  .container{ 
-    background-color: rgb(32, 165, 32);
-  }
+.img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
 }
