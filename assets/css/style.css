@@ -1,21 +1,48 @@
-/* @import "/assets/css/reset.css"; */
+@import "/assets/css/reset.css";
 
 /* @import url("./bootstrap-grid.css"); */
 
 @import url(./custom-grid.css);
 
-
-h1{
-    text-align: center;
-}
-article{
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+body {
+  background-color: grey;
 }
 
-.container{
-    font-size: 1.2em;
-    background-color: lightblue;
+header {
+  margin-bottom: 50px;
+}
+.img-header,
+.img-footer {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+footer {
+  margin-top: 50px;
+}
+.row-img {
+  display: flex;
+  justify-content: center;
+}
+.img-box {
+  width: auto;
+  height: 100px;
+  margin: 30px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 30px;
+}
+article {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
-
+.container {
+  font-size: 1.2em;
+  background-color: white;
+}

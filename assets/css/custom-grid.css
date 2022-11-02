@@ -23,7 +23,7 @@ margin-right:calc(var(--padding-size) * -1) ;
 }
 
 article{
-border: 2px solid red;
+/* border: 2px solid red; */
 }
 
 .row > *{
@@ -122,9 +122,6 @@ max-width: var(--size);
     margin-right:calc(var(--padding-size) * -1) ;
     }
     
-    article{
-    border: 2px solid red;
-    }
     
     .row > *{
         padding-left: var(--gutter-size);
@@ -222,10 +219,7 @@ max-width: var(--size);
     margin-left: calc(var(--padding-size) * -1);
     margin-right:calc(var(--padding-size) * -1) ;
     }
-    
-    article{
-    border: 2px solid red;
-    }
+
     
     .row > *{
         padding-left: var(--gutter-size);
@@ -324,9 +318,6 @@ max-width: var(--size);
     margin-right:calc(var(--padding-size) * -1) ;
     }
     
-    article{
-    border: 2px solid red;
-    }
     
     .row > *{
         padding-left: var(--gutter-size);
@@ -425,9 +416,6 @@ max-width: var(--size);
     margin-right:calc(var(--padding-size) * -1) ;
     }
     
-    article{
-    border: 2px solid red;
-    }
     
     .row > *{
         padding-left: var(--gutter-size);
@@ -526,9 +514,6 @@ max-width: var(--size);
     margin-right:calc(var(--padding-size) * -1) ;
     }
     
-    article{
-    border: 2px solid red;
-    }
     
     .row > *{
         padding-left: var(--gutter-size);
